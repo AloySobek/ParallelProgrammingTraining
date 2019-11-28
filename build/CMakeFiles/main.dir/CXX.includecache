@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ClassMatrix.hpp
+
+../include/ClassPoint.hpp
+main.hpp
+../include/main.hpp
+
+../include/ClassVector.hpp
+
+../include/main.hpp
+iostream
+-
+math.h
+-
+ClassVector.hpp
+../include/ClassVector.hpp
+ClassMatrix.hpp
+../include/ClassMatrix.hpp
+ClassPoint.hpp
+../include/ClassPoint.hpp
+
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/source/main.cpp
+main.hpp
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/source/main.hpp
+

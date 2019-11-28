@@ -1,0 +1,3 @@
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/build/CMakeFiles/rebuild_cache.dir
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/build/CMakeFiles/edit_cache.dir
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/build/CMakeFiles/main.dir
