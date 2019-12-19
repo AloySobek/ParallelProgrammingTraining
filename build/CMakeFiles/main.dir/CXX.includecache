@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 ../include/ClassMatrix.hpp
-
-../include/ClassPoint.hpp
 main.hpp
 ../include/main.hpp
 
@@ -19,12 +17,24 @@ iostream
 -
 math.h
 -
+pthread.h
+-
+unistd.h
+-
+fcntl.h
+-
+string.h
+-
 ClassVector.hpp
 ../include/ClassVector.hpp
 ClassMatrix.hpp
 ../include/ClassMatrix.hpp
-ClassPoint.hpp
-../include/ClassPoint.hpp
+malloc.h
+-
+
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/source/ClassVector.cpp
+main.hpp
+/Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/source/main.hpp
 
 /Users/vrichese/Workspace/Rus42/MyProjects/ParallelProgrammingTraining/source/main.cpp
 main.hpp

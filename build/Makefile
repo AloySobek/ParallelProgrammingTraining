@@ -123,6 +123,60 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+source/ClassMatrix.o: source/ClassMatrix.cpp.o
+
+.PHONY : source/ClassMatrix.o
+
+# target to build an object file
+source/ClassMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassMatrix.cpp.o
+.PHONY : source/ClassMatrix.cpp.o
+
+source/ClassMatrix.i: source/ClassMatrix.cpp.i
+
+.PHONY : source/ClassMatrix.i
+
+# target to preprocess a source file
+source/ClassMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassMatrix.cpp.i
+.PHONY : source/ClassMatrix.cpp.i
+
+source/ClassMatrix.s: source/ClassMatrix.cpp.s
+
+.PHONY : source/ClassMatrix.s
+
+# target to generate assembly for a file
+source/ClassMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassMatrix.cpp.s
+.PHONY : source/ClassMatrix.cpp.s
+
+source/ClassVector.o: source/ClassVector.cpp.o
+
+.PHONY : source/ClassVector.o
+
+# target to build an object file
+source/ClassVector.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassVector.cpp.o
+.PHONY : source/ClassVector.cpp.o
+
+source/ClassVector.i: source/ClassVector.cpp.i
+
+.PHONY : source/ClassVector.i
+
+# target to preprocess a source file
+source/ClassVector.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassVector.cpp.i
+.PHONY : source/ClassVector.cpp.i
+
+source/ClassVector.s: source/ClassVector.cpp.s
+
+.PHONY : source/ClassVector.s
+
+# target to generate assembly for a file
+source/ClassVector.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/ClassVector.cpp.s
+.PHONY : source/ClassVector.cpp.s
+
 source/main.o: source/main.cpp.o
 
 .PHONY : source/main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... source/ClassMatrix.o"
+	@echo "... source/ClassMatrix.i"
+	@echo "... source/ClassMatrix.s"
+	@echo "... source/ClassVector.o"
+	@echo "... source/ClassVector.i"
+	@echo "... source/ClassVector.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
